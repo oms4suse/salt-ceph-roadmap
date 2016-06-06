@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<!--
+This file contains entities.  These representing commonly typed
+text and provide a simple method of expanding to the
+underlying DocBook vocabulary.
+
+You use them by inserting the entity reference, like this:
+  &salt; for the salt entity.
+
+Rules / Guidelines / Suggestions for adding new entities:
+  0.  Check if it's already defined.
+  1.  Try to group similar defns, with common prefix
+  2.  All entities should be lowercase, by convention.
+  3.  Use "correct" DocBook markup: if it doesn't look right, adjust the XSLT.
+  4.  Go through whole document and switch existing usage to new entity.
+-->
+
+<!-- "Products" or high-level services -->
+<!ENTITY wheezy       "<productname>Debian Linux 7.0 (Wheezy)</productname>">
+<!ENTITY salt         "<productname>salt</productname>">
+
+<!-- Various literals -->
+<!ENTITY vo          "<literal>Virtual Organisation</literal>">
+
+<!-- When defining attributes, default values, etc. -->
+<!ENTITY true         "<emphasis>True</emphasis>">
+<!ENTITY false        "<emphasis>False</emphasis>">
+<!ENTITY no-default   "<emphasis>Not set</emphasis>">
+
+<!-- Shell prompts -->
+<!ENTITY prompt-user  "<prompt>[user] $</prompt>">
+<!ENTITY prompt-root  "<prompt>[root] #</prompt>">
+
+
+<!-- Enviroment variables -->
+<!ENTITY SALT_HOME           "<literal>SALT_HOME</literal>">
+
+<!-- Misc -->
+<!-- <!ENTITY ndash "&#x2013;"> -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % sharedents SYSTEM "shared-entities.xml" >
+%sharedents;
+]>
+<book id="salt ceph roadmapBook" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>salt ceph road map</title>
+  <subtitle>2014-01-21</subtitle>
+  <titleabbrev>salt ceph roadmap</titleabbrev>
+
+  <bookinfo>
+    <abstract>
+      <para>This is the planning document for salt integration of ceph. It 
+      intends to cover use cases requirements and specification, and design ideas
+      allowing us to keep out understanding of what our project has achieved and 
+      what is still to be done clear and unamigiuous.
+      </para>
+    </abstract>
+
+    <date>2016-06-06</date>
+    <author>
+      <firstname>Owen</firstname>
+      <surname>Synge</surname>
+    </author>
+  </bookinfo>
+
+  <preface id="preface">
+    <title>Preface</title>
+    <para>salt is a configuration management system with a tookkit for cluster 
+    software.
+    </para>
+    <section id="observations">
+      <title>ceph salt Observations</title>
+      <para>salt is a large tool kit and its easy to become overwelmed by 
+      posibilities ofered buy salt to the user.</para>
+      
+      <para>I belive the process of design should be based upon:</para>
+      <itemizedlist>
+        <listitem>Use cases</listitem>
+        <listitem>Requirements</listitem>
+        <listitem>Specifications</listitem>
+        <listitem>Design</listitem>
+      </itemizedlist>
+      <section id="preface_usecase">
+        <title>Use cases</title>
+        <para>Who and what is meant to be achived</para>
+      </section>
+      <section id="preface_requirements">
+        <title>Requirements</title>
+        <para>What we should be doing derived from use cases</para>
+      </section>
+      <section id="preface_specifications">
+        <title>Specifications</title>
+        <para>What we will be doing derived from requirements</para>
+      </section>
+      <section id="preface_design">
+        <title>Design</title>
+        <para>How we do it dervied from specifications.</para>
+      </section>
+      <para>This formallity will help us understand what and why we are doing things, 
+      and allow management to track our progress.</para>
+      <para>As the documentation matures I would relax the derivation rules such that 
+      usecases can referance components that have been added to design, but to facilitate 
+      large sprints we can relax it further to components added to the specifications.</para>
+      <para>For example if we had a use case to confugre a "rbd service" we have dependanies 
+      on things that have been placed in the specification about "dependacy managment."</para>
+      <para>as a living document I suggest moving this into docbook on gitlab.</para>
+      <para>This will allow us to use code review techniques to allow change control.</para>
+      <para>This will allow us to have an ongoing mechanism to add fate requests to the 
+      usecases, specifications.</para>
+    </section>
+  </preface>
+  <toc/>
+  <xi:include href="chapter_usecases.xml"/>
+  <xi:include href="chapter_requirements.xml"/>
+  <xi:include href="chapter_specifications.xml"/>
+  <xi:include href="chapter_design.xml"/>
+</book>
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE part PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                      "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % sharedents SYSTEM "shared-entities.xml" >
+%sharedents;
+]>
+<chapter id="usecases">  
+  <info>
+    <author>
+      <firstname>Owen</firstname>
+      <surname>Synge</surname>
+    </author>
+  </info>
+  <title>Usecases</title>
+  <section id="usecases_start">
+    <title>introduction</title>
+    <para>All Usecases must state the user and intention.</para>
+  </section>
+  <section id="usecases_se">
+    <title>Sales engineer.</title>
+    <para>This is use cases from the Sales engineer</para>
+
+
+      <section id="usecases_se1">
+        <title>Sales engineer : install a cluster quickly for demo perposes.</title>
+        <para>This is all about presenting a good image to customers</para>
+      </section>
+
+  </section>
+  <section id="usecases_admin">
+    <title>Admin.</title>
+    <para>This is use cases from the Administrator</para>
+
+      <section id="usecases_admin_01">
+        <title>Admin: Install a cluster on N machines quickly</title>
+        <para></para>
+      </section>
+
+
+      <section id="usecases_admin_02">
+        <title>Admin: wants to do little to persist a cluster over minor ceph upgrades.</title>
+        <para></para>
+      </section>
+
+
+      <section id="usecases_admin_03">
+        <title>Admin: wants to do little to persist a cluster over major ceph upgrades.</title>
+        <para></para>
+      </section>
+
+      <section id="usecases_admin_04">
+        <title>Admin: wants to roll back the last operation.</title>
+        <para></para>
+      </section>
+
+      <section id="usecases_admin_05">
+        <title>Admin: wants to expand the cluster.</title>
+        <para></para>
+      </section>
+
+      <section id="usecases_admin_06">
+        <title>Admin: Reapplying the configuration should not break the system</title>
+        <para></para>
+      </section>
+
+  </section>
+
+
+  <section id="usecases_se8">
+    <title>Operator: decomision N disks in cluster cleanly</title>
+    <para></para>
+  </section>
+
+  <section id="usecases_se9">
+    <title>Operator: decomision N nodes in cluster cleanly</title>
+    <para></para>
+  </section>
+
+  <section id="usecases_suse_01">
+    <title>SUSE: SUSE manager integration is important profit center.</title>
+    <para></para>
+  </section>
+
+  <section id="usecases_suse_02">
+    <title>SUSE: cohernace in product portfolio makes SUSE look good to customers.</title>
+    <para></para>
+  </section>
+
+  <section id="usecases_suse_03">
+    <title>SUSE: cohernace in product portfolio saves money</title>
+    <para></para>
+  </section>
+
+
+    
+
+    
+
+  <section id="usecases_suse_04">
+    <title>SUSE: We want others to collabourate on development.</title>
+    <para></para>
+  </section>
+
+  <section id="usecases_operator_01">
+    <title>Operator: when decomisioning an OSD, and the node completes draining we need to remove the OSD async</title>
+    <para></para>
+  </section>
+
+  <section id="usecases_admin_09">
+    <title>Targeting the lazy admin/installer.</title>
+    <para>Give proposals/reasonable configurations for given hardware.  Let me choose instead of telling me to read the manual.</para>
+  </section>
+
+  <section id="usecases_se13">
+    <title>Allow the use of Salt independent of managing Ceph.</title>
+    <para></para>
+  </section>
+    
+  <section id="usecases_se14">
+    <title>Tall Order: Give a relevant diagnosis when cluster is not healthy.</title>
+    <para></para>
+  </section>
+  
+</chapter >

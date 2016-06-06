@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE part PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                      "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % sharedents SYSTEM "shared-entities.xml" >
+%sharedents;
+]>
+<chapter id="design">  
+  <info>
+    <author>
+      <firstname>Owen</firstname>
+      <surname>Synge</surname>
+    </author>
+  </info>
+  <title>design</title>
+  <section id="design_start">
+    <title>introduction</title>
+    <para>All requirements must state the usercase they are derived from.</para>
+  </section>
+  <section id="design_01">
+    <title>salt execution module</title>
+    <para>We need a "salt execution module" to encapsulate operations on nodes, and apply operations</para>
+    <para>Applicable Specifcations (1), (3), (4), (5), (6)</para>
+  </section>
+  <section id="design_02">
+    <title>salt execution module scope</title>
+    <para>The "salt execution module" should perform all operations needed to install and manage all chnage on a node.</para>
+    <para></para>
+  </section>
+  <section id="design_03">
+    <title>salt state module</title>
+    <para>We need a "salt state module" to caclulate the operations that should be applied to a node and apply these and only these</para>
+    <para>Applicable Specifcations (1), (2), (3), (4), (5), (6)</para>
+  </section>
+  <section id="design_04">
+    <title>Data source</title>
+    <para>We need a "salt data source" to drive the configuration.</para>
+    <para>Specifcations (2)</para>
+    <para>This will be a pillar or a mine.</para>    
+  </section>
+  <section id="design_05">
+    <title>The components will have documented and defined API's/ formats.</title>
+    <para></para>
+    <para></para>
+  </section>
+</chapter >

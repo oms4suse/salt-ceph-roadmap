@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE part PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                      "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % sharedents SYSTEM "shared-entities.xml" >
+%sharedents;
+]>
+<chapter id="requirements">  
+  <info>
+    <author>
+      <firstname>Owen</firstname>
+      <surname>Synge</surname>
+    </author>
+  </info>
+  <title>Requirements</title>
+  <section id="requirements_start">
+    <title>introduction</title>
+    <para>All requirements must state the usercase they are derived from.</para>
+  </section>
+  
+  
+
+  <section id="req_01">
+    <title>We need a Configuration Management System (CMS)</title>
+    <para>Usecases (1), (2), (5)</para>
+  </section>
+      
+
+
+  <section id="req_02">
+    <title>The CMS system will ideally be salt</title>
+    <para>Usecases (9), (10)</para>
+  </section>
+
+  <section id="req_03">
+    <title>The CMS should take a system to a confiured ceph node.</title>
+    <para>Usecases (1)</para>
+  </section>
+  <section id="req_04">
+    <title>The CMS should support long running operations</title>
+    <para>Usecases (6), (7)</para>
+  </section>
+
+  <section id="req_05">
+    <title>The CMS should be broken down into reusable components.</title>
+    <para>Usecases (13)</para>
+  </section>
+  <section id="req_06">
+    <title>The CMS system should not break the system on reapplying.</title>
+    <para>Usecases (7)</para>
+  </section>
+
+  <section id="req_07">
+    <title>The CMS system will be stable over releases</title>
+    <para>Usecases (2), (3)</para>
+  </section>
+  <section id="req_08">
+    <title>The CMS should monitor OSD fullness</title>
+    <para>I am undecided on this one.  While I think Salt can do monitoring, I think this is a topic onto itself.  Considering Nagios/Icinga capabilities vs. Salt with the event driven triggers, we could have some significant overlap. </para>
+  </section>
+
+</chapter >

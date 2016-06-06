@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE part PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                      "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % sharedents SYSTEM "shared-entities.xml" >
+%sharedents;
+]>
+<chapter id="specifications">  
+  <info>
+    <author>
+      <firstname>Owen</firstname>
+      <surname>Synge</surname>
+    </author>
+  </info>
+  <title>Specifications</title>
+  <section id="specifications_start">
+    <title>introduction</title>
+    <para>All requirements must state the usercase they are derived from.</para>
+  </section>
+  <section id="specification_01">
+    <title>The CMS will be salt</title>
+    <para>Requirements (1), (2)</para>
+  </section>
+  <section id="specification_02">
+    <title>The CMS must have at all times a defined desired state</title>
+    <para>Requirement (2), (3)</para>
+  </section>
+  <section id="specification_03">
+    <title>The CMS must identify the difference between desired state and currrent state</title>
+    <para>Requirement (2)</para>
+  </section>
+  <section id="specification_04">
+    <title>The CMS componenets will provide stable API's</title>
+    <para>Requirement (7)</para>
+  </section>
+  <section id="specification_05">
+    <title>The components will have documented and defined API's/ formats.</title>
+    <para>Requirement (7)</para>
+  </section>
+</chapter >
