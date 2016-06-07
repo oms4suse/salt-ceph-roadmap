@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE part PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                      "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+<!ENTITY % sharedents SYSTEM "shared-entities.xml" >
+%sharedents;
+]>
+<chapter id="actors">  
+  <info>
+    <author>
+      <firstname>Owen</firstname>
+      <surname>Synge</surname>
+    </author>
+  </info>
+  <title>Actors</title>
+  <section id="design_start">
+    <title>introduction</title>
+    <para>In this document actors are usually people. They are referanced by 
+    usecases and explain who the person is who is trying to perform a use 
+    case.</para>
+  </section>
+  <section id="actor_01">
+    <title>Sales Engineer</title>
+    <para>Sales engeneers go to sites and sell products.</para>
+    <para>Sales engeneers need quick results.</para>
+  </section>
+  <section id="actor_02">
+    <title>Admin</title>
+    <para>The admin is the person who is responcible for a service.</para>
+    <para>The admin is the person who will fix the probelm if they can.</para>
+    <para>The admin is the person who will call for support if they cant fix 
+    the probelm.</para>
+  </section>
+  <section id="actor_03">
+    <title>Operator</title>
+    <para>The operator is soem one who does simple tasks for the admin.</para>
+    <para>The operator may do soem troubleshooting but will typically pass such 
+    tasks to the admin.</para>
+    <para>The operator will do most routine tasks in cluster management, 
+    examples include replacing disks and .</para>
+  </section>
+  <section id="actor_04">
+    <title>Sponsor SUSE</title>
+    <para>Sponsers are peopel paying for this development.</para>
+    <para>SUSE Linux has a storage product and this work is part of making that sotrage product useful.</para>
+  </section>
+</chapter >
