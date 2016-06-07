@@ -8,14 +8,14 @@
 
   <title>salt ceph road map</title>
   <subtitle>2014-01-21</subtitle>
-  <titleabbrev>salt ceph roadmap</titleabbrev>
+  <titleabbrev>salt ceph road map</titleabbrev>
 
   <bookinfo>
     <abstract>
       <para>This is the planning document for salt integration of ceph. It 
       intends to cover use cases requirements and specification, and design ideas
       allowing us to keep out understanding of what our project has achieved and 
-      what is still to be done clear and unamigiuous.
+      what is still to be done clear and unambiguous.
       </para>
     </abstract>
 
@@ -28,15 +28,15 @@
 
   <preface id="preface">
     <title>Preface</title>
-    <para>salt is a configuration management system with a tookkit for cluster 
+    <para>salt is a configuration management system with a toolkit for cluster 
     software.
     </para>
     <section id="observations">
       <title>ceph salt Observations</title>
-      <para>salt is a large tool kit and its easy to become overwelmed by 
-      posibilities ofered buy salt to the user.</para>
+      <para>salt is a large tool kit and its easy to become overwhelmed by 
+      possibilities offered by salt to the user.</para>
       
-      <para>I belive the process of design should be based upon:</para>
+      <para>I believe the process of design should be based upon:</para>
       <itemizedlist>
         <listitem>Use cases</listitem>
         <listitem>Requirements</listitem>
@@ -45,7 +45,7 @@
       </itemizedlist>
       <section id="preface_usecase">
         <title>Use cases</title>
-        <para>Who and what is meant to be achived</para>
+        <para>Who and what is meant to be achieved</para>
       </section>
       <section id="preface_requirements">
         <title>Requirements</title>
@@ -57,19 +57,19 @@
       </section>
       <section id="preface_design">
         <title>Design</title>
-        <para>How we do it dervied from specifications.</para>
+        <para>How we do it derived from specifications.</para>
       </section>
-      <para>This formallity will help us understand what and why we are doing things, 
+      <para>This formality will help us understand what and why we are doing things, 
       and allow management to track our progress.</para>
       <para>As the documentation matures I would relax the derivation rules such that 
-      usecases can referance components that have been added to design, but to facilitate 
+      use cases can reference components that have been added to design, but to facilitate 
       large sprints we can relax it further to components added to the specifications.</para>
-      <para>For example if we had a use case to confugre a "rbd service" we have dependanies 
-      on things that have been placed in the specification about "dependacy managment."</para>
-      <para>as a living document I suggest moving this into docbook on gitlab.</para>
+      <para>For example if we had a use case to configure a "rbd service" we have dependencies 
+      on things that have been placed in the specification about "dependency management."</para>
+      <para>as a living document I suggest moving this into doc book on gitlab.</para>
       <para>This will allow us to use code review techniques to allow change control.</para>
       <para>This will allow us to have an ongoing mechanism to add fate requests to the 
-      usecases, specifications.</para>
+      use cases, specifications.</para>
     </section>
   </preface>
   <toc/>

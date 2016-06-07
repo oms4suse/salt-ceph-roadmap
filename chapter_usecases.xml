@@ -11,23 +11,23 @@
       <surname>Synge</surname>
     </author>
   </info>
-  <title>Usecases</title>
+  <title>Use cases</title>
   <section id="usecases_start">
     <title>introduction</title>
-    <para>All Usecases must state the user and intention.</para>
+    <para>All Use cases must state the user and intention.</para>
   </section>
   <section id="usecases_se">
     <title>Sales engineer.</title>
-    <para>This is use cases from the Sales engineer</para>
+    <para>These are use cases from the Sales engineer</para>
     <para><xref linkend="actor_01"/></para>
       <section id="usecases_se1">
-        <title>Sales engineer : install a cluster quickly for demo perposes.</title>
+        <title>Sales engineer : install a cluster quickly for demo purposes.</title>
         <para>This is all about presenting a good image to customers</para>
       </section>
   </section>
   <section id="usecases_admin">
     <title>Admin.</title>
-    <para>This is use cases from the Administrator</para>
+    <para>These are use cases from the Administrator</para>
     <para><xref linkend="actor_02"/></para>
 
     <section id="usecases_admin_01">
@@ -62,7 +62,7 @@
 
     <section id="usecases_admin_09">
       <title>Proposal based installer.</title>
-      <para>Even With a typical small ceph cluster of 5 nodes each with 8 disks we have 40 disks. Enumerating all hese disks makes install overwelming.</para>
+      <para>Even With a typical small ceph cluster of 5 nodes each with 8 disks we have 40 disks. Enumerating all these disks makes install overwhelming.</para>
       <para>Give proposals/reasonable configurations for given hardware.  Let me choose instead of telling me to read the manual.</para>
     </section>
 
@@ -81,15 +81,15 @@
     <title>operator</title>
     <para><xref linkend="actor_03"/></para>
     <section id="usecases_se8">
-      <title>Operator: decomision N disks in cluster cleanly</title>
+      <title>Operator: decommission N disks in cluster cleanly</title>
       <para></para>
     </section>
     <section id="usecases_se9">
-      <title>Operator: decomision N nodes in cluster cleanly</title>
+      <title>Operator: decommission N nodes in cluster cleanly</title>
       <para></para>
     </section>
     <section id="usecases_operator_01">
-      <title>Operator: when decomisioning an OSD, and the node completes draining we need to remove the OSD async</title>
+      <title>Operator: when decommissioning an OSD, and the node completes draining we need to remove the OSD async</title>
       <para></para>
     </section>
   </section>
@@ -102,16 +102,16 @@
     </section>
 
     <section id="usecases_suse_02">
-      <title>SUSE: cohernace in product portfolio makes SUSE look good to customers.</title>
+      <title>SUSE: coherence in product portfolio makes SUSE look good to customers.</title>
       <para></para>
     </section>
 
     <section id="usecases_suse_03">
-      <title>SUSE: cohernace in product portfolio saves money</title>
+      <title>SUSE: coherence in product portfolio saves money</title>
       <para></para>
     </section>
     <section id="usecases_suse_04">
-      <title>SUSE: We want others to collabourate on development.</title>
+      <title>SUSE: We want others to collaborate on development.</title>
       <para></para>
     </section>
   </section>
