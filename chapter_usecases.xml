@@ -62,45 +62,37 @@
         <title>Admin: Reapplying the configuration should not break the system</title>
         <para></para>
       </section>
-
   </section>
-
-
-  <section id="usecases_se8">
-    <title>Operator: decomision N disks in cluster cleanly</title>
-    <para></para>
+  <section id="usecases_operator">
+    <section id="usecases_se8">
+      <title>Operator: decomision N disks in cluster cleanly</title>
+      <para></para>
+    </section>
+    <section id="usecases_se9">
+      <title>Operator: decomision N nodes in cluster cleanly</title>
+      <para></para>
+    </section>
   </section>
+  <section id="usecases_sponcer">
+    <section id="usecases_suse_01">
+      <title>SUSE: SUSE manager integration is important profit center.</title>
+      <para></para>
+    </section>
 
-  <section id="usecases_se9">
-    <title>Operator: decomision N nodes in cluster cleanly</title>
-    <para></para>
+    <section id="usecases_suse_02">
+      <title>SUSE: cohernace in product portfolio makes SUSE look good to customers.</title>
+      <para></para>
+    </section>
+
+    <section id="usecases_suse_03">
+      <title>SUSE: cohernace in product portfolio saves money</title>
+      <para></para>
+    </section>
+    <section id="usecases_suse_04">
+      <title>SUSE: We want others to collabourate on development.</title>
+      <para></para>
+    </section>
   </section>
-
-  <section id="usecases_suse_01">
-    <title>SUSE: SUSE manager integration is important profit center.</title>
-    <para></para>
-  </section>
-
-  <section id="usecases_suse_02">
-    <title>SUSE: cohernace in product portfolio makes SUSE look good to customers.</title>
-    <para></para>
-  </section>
-
-  <section id="usecases_suse_03">
-    <title>SUSE: cohernace in product portfolio saves money</title>
-    <para></para>
-  </section>
-
-
-    
-
-    
-
-  <section id="usecases_suse_04">
-    <title>SUSE: We want others to collabourate on development.</title>
-    <para></para>
-  </section>
-
   <section id="usecases_operator_01">
     <title>Operator: when decomisioning an OSD, and the node completes draining we need to remove the OSD async</title>
     <para></para>
