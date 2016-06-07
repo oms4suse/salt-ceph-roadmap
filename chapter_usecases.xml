@@ -19,6 +19,7 @@
   <section id="usecases_se">
     <title>Sales engineer.</title>
     <para>This is use cases from the Sales engineer</para>
+    <para><xref linkend="actor_01"/></para>
       <section id="usecases_se1">
         <title>Sales engineer : install a cluster quickly for demo perposes.</title>
         <para>This is all about presenting a good image to customers</para>
@@ -27,6 +28,7 @@
   <section id="usecases_admin">
     <title>Admin.</title>
     <para>This is use cases from the Administrator</para>
+    <para><xref linkend="actor_02"/></para>
 
     <section id="usecases_admin_01">
       <title>Admin: Install a cluster on N machines quickly</title>
@@ -59,7 +61,8 @@
     </section>
 
     <section id="usecases_admin_09">
-      <title>Targeting the lazy admin/installer.</title>
+      <title>Proposal based installer.</title>
+      <para>Even With a typical small ceph cluster of 5 nodes each with 8 disks we have 40 disks. Enumerating all hese disks makes install overwelming.</para>
       <para>Give proposals/reasonable configurations for given hardware.  Let me choose instead of telling me to read the manual.</para>
     </section>
 
@@ -76,6 +79,7 @@
   </section>
   <section id="usecases_operator">
     <title>operator</title>
+    <para><xref linkend="actor_03"/></para>
     <section id="usecases_se8">
       <title>Operator: decomision N disks in cluster cleanly</title>
       <para></para>
@@ -91,6 +95,7 @@
   </section>
   <section id="usecases_sponsor">
     <title>sponsor</title>
+    <para><xref linkend="actor_04"/></para>
     <section id="usecases_suse_01">
       <title>SUSE: SUSE manager integration is important profit center.</title>
       <para></para>
