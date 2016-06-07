@@ -14,7 +14,7 @@
   <title>Requirements</title>
   <section id="requirements_start">
     <title>introduction</title>
-    <para>All requirements must state the usercase they are derived from.</para>
+    <para>All requirements must state the use cases they are derived from.</para>
   </section>
   <section id="req_01">
     <title>We need a Configuration Management System (CMS)</title>
@@ -32,7 +32,7 @@
     </itemizedlist>
   </section>
   <section id="req_03">
-    <title>The CMS should take a system to a confiured ceph node.</title>
+    <title>The CMS should take a system to a configured ceph node.</title>
     <itemizedlist>
       <listitem><xref linkend="usecases_se1"/></listitem>
     </itemizedlist>

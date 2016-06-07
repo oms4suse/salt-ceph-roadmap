@@ -14,7 +14,7 @@
   <title>Specifications</title>
   <section id="specifications_start">
     <title>introduction</title>
-    <para>All requirements must state the usercase they are derived from.</para>
+    <para>All requirements must state the use cases they are derived from.</para>
   </section>
   <section id="specification_01">
     <title>The CMS will be salt</title>
@@ -31,13 +31,13 @@
     </itemizedlist>
   </section>
   <section id="specification_03">
-    <title>The CMS must identify the difference between desired state and currrent state</title>
+    <title>The CMS must identify the difference between desired state and current state</title>
     <itemizedlist>
       <listitem><xref linkend="req_02"/></listitem>
     </itemizedlist>
   </section>
   <section id="specification_04">
-    <title>The CMS componenets will provide stable API's</title>
+    <title>The CMS components will provide stable API's</title>
     <itemizedlist>
       <listitem><xref linkend="req_07"/></listitem>
     </itemizedlist>

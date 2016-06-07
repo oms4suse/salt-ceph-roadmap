@@ -14,12 +14,12 @@
   <title>design</title>
   <section id="design_start">
     <title>introduction</title>
-    <para>All requirements must state the usercase they are derived from.</para>
+    <para>All requirements must state the use cases they are derived from.</para>
   </section>
   <section id="design_01">
     <title>salt execution module</title>
     <para>We need a "salt execution module" to encapsulate operations on nodes, and apply operations</para>
-    <para>Applicable Specifcations (1), (3), (4), (5), (6)</para>
+    <para>Applicable Specifications (1), (3), (4), (5), (6)</para>
     <itemizedlist>
       <listitem><xref linkend="specification_01"/></listitem>
       <listitem><xref linkend="specification_03"/></listitem>
@@ -29,13 +29,13 @@
   </section>
   <section id="design_02">
     <title>salt execution module scope</title>
-    <para>The "salt execution module" should perform all operations needed to install and manage all chnage on a node.</para>
+    <para>The "salt execution module" should perform all operations needed to install and manage all change on a node.</para>
     <para></para>
   </section>
   <section id="design_03">
     <title>salt state module</title>
-    <para>We need a "salt state module" to caclulate the operations that should be applied to a node and apply these and only these</para>
-    <para>Applicable Specifcations (1), (2), (3), (4), (5), (6)</para>
+    <para>We need a "salt state module" to calculate the operations that should be applied to a node and apply these and only these</para>
+    <para>Applicable Specifications (1), (2), (3), (4), (5), (6)</para>
     <itemizedlist>
       <listitem><xref linkend="specification_01"/></listitem>
       <listitem><xref linkend="specification_02"/></listitem>
@@ -48,7 +48,7 @@
   <section id="design_04">
     <title>Data source</title>
     <para>We need a "salt data source" to drive the configuration.</para>
-    <para>Specifcations (2)</para>
+    <para>Specifications (2)</para>
     <para>This will be a pillar or a mine.</para>    
     <itemizedlist>
       <listitem><xref linkend="specification_02"/></listitem>
