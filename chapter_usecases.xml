@@ -59,6 +59,13 @@
         <title>Admin: Reapplying the configuration should not break the system</title>
         <para></para>
       </section>
+
+  <section id="usecases_admin_09">
+    <title>Targeting the lazy admin/installer.</title>
+    <para>Give proposals/reasonable configurations for given hardware.  Let me choose instead of telling me to read the manual.</para>
+  </section>
+
+
   </section>
   <section id="usecases_operator">
     <title>operator</title>
@@ -97,10 +104,6 @@
     <para></para>
   </section>
 
-  <section id="usecases_admin_09">
-    <title>Targeting the lazy admin/installer.</title>
-    <para>Give proposals/reasonable configurations for given hardware.  Let me choose instead of telling me to read the manual.</para>
-  </section>
 
   <section id="usecases_se13">
     <title>Allow the use of Salt independent of managing Ceph.</title>
