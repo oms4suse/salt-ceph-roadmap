@@ -43,4 +43,10 @@
     <para>Sponsors are people paying for this development.</para>
     <para>SUSE Linux has a storage product and this work is part of making that storage product useful.</para>
   </section>
-</chapter >
+  <section id="actor_05">
+    <title>Developers</title>
+    <para>Developers work on the ceph and related tools source code.</para>
+    <para>Developers want to spin up clusters quickly for testing.</para>
+    <para>Developers want to test on different cluster setups.</para>
+  </section>
+</chapter>
