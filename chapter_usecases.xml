@@ -28,43 +28,40 @@
     <title>Admin.</title>
     <para>This is use cases from the Administrator</para>
 
-      <section id="usecases_admin_01">
-        <title>Admin: Install a cluster on N machines quickly</title>
-        <para></para>
-      </section>
+    <section id="usecases_admin_01">
+      <title>Admin: Install a cluster on N machines quickly</title>
+      <para></para>
+    </section>
 
+    <section id="usecases_admin_02">
+      <title>Admin: wants to do little to persist a cluster over minor ceph upgrades.</title>
+      <para></para>
+    </section>
 
-      <section id="usecases_admin_02">
-        <title>Admin: wants to do little to persist a cluster over minor ceph upgrades.</title>
-        <para></para>
-      </section>
+    <section id="usecases_admin_03">
+      <title>Admin: wants to do little to persist a cluster over major ceph upgrades.</title>
+      <para></para>
+    </section>
 
+    <section id="usecases_admin_04">
+      <title>Admin: wants to roll back the last operation.</title>
+      <para></para>
+    </section>
 
-      <section id="usecases_admin_03">
-        <title>Admin: wants to do little to persist a cluster over major ceph upgrades.</title>
-        <para></para>
-      </section>
+    <section id="usecases_admin_05">
+      <title>Admin: wants to expand the cluster.</title>
+      <para></para>
+    </section>
 
-      <section id="usecases_admin_04">
-        <title>Admin: wants to roll back the last operation.</title>
-        <para></para>
-      </section>
+    <section id="usecases_admin_06">
+      <title>Admin: Reapplying the configuration should not break the system</title>
+      <para></para>
+    </section>
 
-      <section id="usecases_admin_05">
-        <title>Admin: wants to expand the cluster.</title>
-        <para></para>
-      </section>
-
-      <section id="usecases_admin_06">
-        <title>Admin: Reapplying the configuration should not break the system</title>
-        <para></para>
-      </section>
-
-  <section id="usecases_admin_09">
-    <title>Targeting the lazy admin/installer.</title>
-    <para>Give proposals/reasonable configurations for given hardware.  Let me choose instead of telling me to read the manual.</para>
-  </section>
-
+    <section id="usecases_admin_09">
+      <title>Targeting the lazy admin/installer.</title>
+      <para>Give proposals/reasonable configurations for given hardware.  Let me choose instead of telling me to read the manual.</para>
+    </section>
 
   </section>
   <section id="usecases_operator">
