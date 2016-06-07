@@ -84,6 +84,10 @@
       <title>Operator: decomision N nodes in cluster cleanly</title>
       <para></para>
     </section>
+    <section id="usecases_operator_01">
+      <title>Operator: when decomisioning an OSD, and the node completes draining we need to remove the OSD async</title>
+      <para></para>
+    </section>
   </section>
   <section id="usecases_sponsor">
     <title>sponsor</title>
@@ -105,10 +109,6 @@
       <title>SUSE: We want others to collabourate on development.</title>
       <para></para>
     </section>
-  </section>
-  <section id="usecases_operator_01">
-    <title>Operator: when decomisioning an OSD, and the node completes draining we need to remove the OSD async</title>
-    <para></para>
   </section>
 
 </chapter >
