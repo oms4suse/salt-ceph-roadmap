@@ -73,6 +73,7 @@
     </section>
   </preface>
   <toc/>
+  <xi:include href="chapter_actors.xml"/>
   <xi:include href="chapter_usecases.xml"/>
   <xi:include href="chapter_requirements.xml"/>
   <xi:include href="chapter_specifications.xml"/>
