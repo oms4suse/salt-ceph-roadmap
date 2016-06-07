@@ -67,6 +67,11 @@
       <title>Allow the use of Salt independent of managing Ceph.</title>
       <para></para>
     </section>
+    
+    <section id="usecases_admin_11">
+      <title>Give a relevant diagnosis when cluster is not healthy.</title>
+      <para>This might be a "Tall Order"</para>
+    </section>
 
   </section>
   <section id="usecases_operator">
@@ -106,12 +111,4 @@
     <para></para>
   </section>
 
-
-
-    
-  <section id="usecases_se14">
-    <title>Tall Order: Give a relevant diagnosis when cluster is not healthy.</title>
-    <para></para>
-  </section>
-  
 </chapter >
