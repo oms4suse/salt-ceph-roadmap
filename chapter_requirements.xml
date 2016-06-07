@@ -16,46 +16,55 @@
     <title>introduction</title>
     <para>All requirements must state the usercase they are derived from.</para>
   </section>
-  
-  
-
   <section id="req_01">
     <title>We need a Configuration Management System (CMS)</title>
-    <para>Usecases (1), (2), (5)</para>
+    <itemizedlist>
+      <listitem><xref linkend="usecases_se1"/></listitem>
+      <listitem><xref linkend="usecases_admin_01"/></listitem>
+      <listitem><xref linkend="usecases_admin_05"/></listitem>
+    </itemizedlist>
   </section>
-      
-
-
   <section id="req_02">
     <title>The CMS system will ideally be salt</title>
-    <para>Usecases (9), (10)</para>
+    <itemizedlist>
+      <listitem><xref linkend="usecases_se9"/></listitem>
+      <listitem><xref linkend="usecases_suse_01"/></listitem>
+    </itemizedlist>
   </section>
-
   <section id="req_03">
     <title>The CMS should take a system to a confiured ceph node.</title>
-    <para>Usecases (1)</para>
+    <itemizedlist>
+      <listitem><xref linkend="usecases_se1"/></listitem>
+    </itemizedlist>
   </section>
   <section id="req_04">
     <title>The CMS should support long running operations</title>
-    <para>Usecases (6), (7)</para>
+    <itemizedlist>
+      <listitem><xref linkend="usecases_admin_05"/></listitem>
+      <listitem><xref linkend="usecases_admin_06"/></listitem>
+    </itemizedlist>
   </section>
-
   <section id="req_05">
     <title>The CMS should be broken down into reusable components.</title>
-    <para>Usecases (13)</para>
+    <itemizedlist>
+      <listitem><xref linkend="usecases_suse_04"/></listitem>
+    </itemizedlist>
   </section>
   <section id="req_06">
     <title>The CMS system should not break the system on reapplying.</title>
-    <para>Usecases (7)</para>
+    <itemizedlist>
+      <listitem><xref linkend="usecases_admin_06"/></listitem>
+    </itemizedlist>
   </section>
-
   <section id="req_07">
     <title>The CMS system will be stable over releases</title>
-    <para>Usecases (2), (3)</para>
+    <itemizedlist>
+      <listitem><xref linkend="usecases_admin_01"/></listitem>
+      <listitem><xref linkend="usecases_admin_02"/></listitem>
+    </itemizedlist>
   </section>
   <section id="req_08">
     <title>The CMS should monitor OSD fullness</title>
     <para>I am undecided on this one.  While I think Salt can do monitoring, I think this is a topic onto itself.  Considering Nagios/Icinga capabilities vs. Salt with the event driven triggers, we could have some significant overlap. </para>
   </section>
-
 </chapter >
