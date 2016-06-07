@@ -19,13 +19,10 @@
   <section id="usecases_se">
     <title>Sales engineer.</title>
     <para>This is use cases from the Sales engineer</para>
-
-
       <section id="usecases_se1">
         <title>Sales engineer : install a cluster quickly for demo perposes.</title>
         <para>This is all about presenting a good image to customers</para>
       </section>
-
   </section>
   <section id="usecases_admin">
     <title>Admin.</title>
@@ -64,6 +61,7 @@
       </section>
   </section>
   <section id="usecases_operator">
+    <title>operator</title>
     <section id="usecases_se8">
       <title>Operator: decomision N disks in cluster cleanly</title>
       <para></para>
@@ -73,7 +71,8 @@
       <para></para>
     </section>
   </section>
-  <section id="usecases_sponcer">
+  <section id="usecases_sponsor">
+    <title>sponsor</title>
     <section id="usecases_suse_01">
       <title>SUSE: SUSE manager integration is important profit center.</title>
       <para></para>
