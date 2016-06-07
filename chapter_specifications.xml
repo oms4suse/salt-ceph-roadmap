@@ -18,22 +18,34 @@
   </section>
   <section id="specification_01">
     <title>The CMS will be salt</title>
-    <para>Requirements (1), (2)</para>
+    <itemizedlist>
+      <listitem><xref linkend="req_01"/></listitem>
+      <listitem><xref linkend="req_02"/></listitem>
+    </itemizedlist>
   </section>
   <section id="specification_02">
     <title>The CMS must have at all times a defined desired state</title>
-    <para>Requirement (2), (3)</para>
+    <itemizedlist>
+      <listitem><xref linkend="req_02"/></listitem>
+      <listitem><xref linkend="req_03"/></listitem>
+    </itemizedlist>
   </section>
   <section id="specification_03">
     <title>The CMS must identify the difference between desired state and currrent state</title>
-    <para>Requirement (2)</para>
+    <itemizedlist>
+      <listitem><xref linkend="req_02"/></listitem>
+    </itemizedlist>
   </section>
   <section id="specification_04">
     <title>The CMS componenets will provide stable API's</title>
-    <para>Requirement (7)</para>
+    <itemizedlist>
+      <listitem><xref linkend="req_07"/></listitem>
+    </itemizedlist>
   </section>
   <section id="specification_05">
     <title>The components will have documented and defined API's/ formats.</title>
-    <para>Requirement (7)</para>
+    <itemizedlist>
+      <listitem><xref linkend="req_07"/></listitem>
+    </itemizedlist>
   </section>
 </chapter >
